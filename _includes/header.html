@@ -2,7 +2,11 @@
   <div>
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
     {% assign owner_first_name = site.owner | split: " " %}
+<<<<<<< HEAD
     <h1>root@{{ owner_first_name[0] | downcase }}:~#</h1>
+=======
+    <h1>root@{{ owner_first_name[0] | downcase }}~#</h1>
+>>>>>>> 5f30e104e82480ae6666a160d9bf8e380d707066
     </a>
     <div class="header-links">
       {% include links.html %}
